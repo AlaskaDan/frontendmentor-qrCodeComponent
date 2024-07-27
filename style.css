@@ -1,0 +1,51 @@
+* {
+  /* box-shadow: 0 0 1px 1px red; */
+}
+:root {
+  --color-light: hsl(0, 0%, 100%);
+  --color-main-300: hsl(212, 45%, 89%);
+  --color-main-500: hsl(216, 15%, 48%);
+  --color-main-900: hsl(218, 44%, 22%);
+}
+body {
+  background-color: var(--color-main-300);
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  border-radius: 5%;
+  padding: 1rem;
+  background-color: var(--color-light);
+  width: 250px;
+}
+.qr-code {
+  width: 100%;
+  border-radius: 5%;
+}
+.message {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--color-main-900);
+}
+.instructions {
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: var(--color-main-500);
+}
+.attribution {
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
